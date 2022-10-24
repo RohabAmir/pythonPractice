@@ -51,10 +51,12 @@ saveUser(Rollno= 4492, Name="Rohab", age=23)
 def saveUser(**user): 
     print(user["Name"])
     print(user["Rollno"])
+    print(user["age"])
+
+
 
 
 
 saveUser(Rollno= 4492, Name="Rohab", age=23)
-
 
 
