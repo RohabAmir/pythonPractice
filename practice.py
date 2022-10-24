@@ -130,7 +130,8 @@
 
 
 
-
+for i in range(getN()):
+        print('*' * (getN()-i))
 
 
 

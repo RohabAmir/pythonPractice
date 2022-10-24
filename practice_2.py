@@ -34,7 +34,8 @@ for i in range(getN()):
 for i in range(getN()):
         print('*' * (getN()-i))
         
-    
+for i in range(getN()):
+        print('*' * (getN()-i))
 
 
 
