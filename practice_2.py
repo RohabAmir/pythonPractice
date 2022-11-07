@@ -26,13 +26,13 @@ else :
 ###############################################################################
 
 # type of arguments in a function 
-# def multiply(*numbers): # for tuples to be a part of function's argument
-#     total=1
-#     for number in numbers:
-#         # total = total*i
-#         total *= number
-#     return total
-# print(multiply(2,3,4,5,6,7,8,9))
+def multiply(*numbers): # for tuples to be a part of function's argument
+    total=1
+    for number in numbers:
+        # total = total*i
+        total *= number
+    return total
+print(multiply(2,3,4,5,6,7,8,9))
 
 
 # def saveUser(**user): # for dictionary to be a part of arguments 
