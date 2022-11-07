@@ -21,15 +21,7 @@ else :
 # # a=getN1()
 # print(a)
 
-# function to print a pattern
 
-
-# n=4
-# def getN():
-#     return n
-
-# for i in range(getN()):
-#     print('*' * (getN()-i))
         
 ###############################################################################
 
